@@ -1,5 +1,6 @@
 .app__page {
   display: flex;
+  margin-top: 20px;
 }
 
 .app {

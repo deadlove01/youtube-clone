@@ -1,0 +1,24 @@
+.channelRow {
+  display: flex;
+  margin-bottom: 30px;
+  max-width: 700px;
+}
+.channelRow__text {
+  /* display: flex;
+  flex-direction: column; */
+  margin-left: 20px;
+}
+
+.channelRow > img {
+  object-fit: contain;
+  width: 246px;
+  height: 138px;
+}
+.channelRow__headline {
+}
+
+.channelRow__description {
+  margin-top: 14px;
+  font-size: 12px;
+  color: #606060;
+}
