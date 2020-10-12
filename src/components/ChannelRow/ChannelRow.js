@@ -14,10 +14,13 @@ function ChannelRow({
 }) {
   return (
     <div className="channelRow">
-      <img src={image} alt={`https://www.youtube.com/watch?v=${videoId}`} />
+      <img src={image} alt={`https://www.youtube.com/watch?v=${videoId}`} onClick={()=>{
+        window.open(`https://www.youtube.com/watch?v=${videoId}`, "_blank")
+      }} />
 
       <div className="channelRow__text">
         <h3>{title}</h3>
+
         <p className="channelRow__headline">
           {channelName}
           {verified && <CheckCircleOutlineOutlinedIcon />} • {views} •{" "}
